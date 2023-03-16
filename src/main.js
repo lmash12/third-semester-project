@@ -1,5 +1,4 @@
 import { createApp } from "vue";
-// import { createStore } from "vuex";
 import App from "./App.vue";
 import { createRouter, createWebHistory } from "vue-router";
 import counterPage from "@/components/counterPage.vue";
