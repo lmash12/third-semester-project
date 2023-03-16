@@ -2,7 +2,9 @@
   <div class="header-box">
     <header>
       <nav>
-        <RouterLink class="link" to="/">Home</RouterLink>
+        <RouterLink class="link" to="/">
+          <fa icon="fa-solid fa-house"></fa>
+        </RouterLink>
         <RouterLink class="link" to="/counter">Project</RouterLink>
         <a
           class="link"
@@ -10,7 +12,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github
+          <fa icon="fa-brands fa-github"></fa>
         </a>
       </nav>
     </header>
@@ -94,6 +96,11 @@ export default {
   font-family: "Trebuchet MS", sans-serif;
 }
 
+.icon {
+  color: #32355c;
+  font-size: 20px;
+  margin-right: 10px;
+}
 header {
   display: flex;
   align-items: center;
@@ -172,6 +179,14 @@ nav {
 }
 
 .link {
+  color: white;
+  font-size: 24px;
+  transition: ease-in-out 2s;
+}
+.link:hover {
+  animation: shake 5s ease-in backwards;
+  box-shadow: rgba(0, 0, 3, 0.24) 5px 7px 14px;
+  border-radius: 2px;
   color: whitesmoke;
 }
 
