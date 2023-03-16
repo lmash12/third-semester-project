@@ -24,10 +24,12 @@
         width="255"
         height="255"
       />
-      <h3 style="padding-left: 20px; color: #32355c">
-        Hello! <br />
-        My name is Lesley Mashaya
-      </h3>
+      <div class="typit">
+        <h3 class="typingEffect">
+          Hello! <br />
+          My name is Lesley Mashaya
+        </h3>
+      </div>
       <div>
         <p class="Intro">
           I am a FrontEnd Developer currenlty in my final semester with
@@ -85,6 +87,13 @@ export default {
   align-items: center;
   justify-content: center;
 }
+
+.typingEffect {
+  padding-left: 20px;
+  color: #32355c;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -130,7 +139,7 @@ header {
     0% 50%,
     18% 11%
   );
-  animation: shake 4s ease-in-out backwards;
+  animation: shake 4s ease-in backwards;
 }
 @keyframes shake {
   0% {
@@ -194,6 +203,7 @@ main {
   padding: 10px;
   width: 100%;
   color: whitesmoke;
+  background-color: rgba(50, 53, 92, 0.4);
   animation: shake 3s ease-in-out forwards;
 }
 
