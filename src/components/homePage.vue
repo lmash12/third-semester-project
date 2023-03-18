@@ -5,7 +5,7 @@
         <RouterLink class="link" to="/">
           <fa icon="fa-solid fa-house"></fa>
         </RouterLink>
-        <RouterLink class="link" to="/counter">Project</RouterLink>
+        <RouterLink class="link" to="/counter">Counter</RouterLink>
         <a
           class="link"
           href="https://github.com/lmash12"

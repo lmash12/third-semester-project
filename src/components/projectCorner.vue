@@ -17,6 +17,9 @@
         >Site link</a
       >
     </p>
+    <p>
+      <RouterLink class="link" to="/counter">Counter App</RouterLink>
+    </p>
   </div>
 </template>
 <script setup></script>
